@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// Globally register all `_base`-prefixed components
+import './components/_globals'
+
 Vue.config.productionTip = false
 
 new Vue({
